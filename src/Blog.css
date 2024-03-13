@@ -1,0 +1,37 @@
+
+.blog-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.blog-container h2 {
+    color: #333; 
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+.blog-post {
+  background-color: #f4f4f4; 
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.blog-post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.blog-post h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.blog-post p {
+  color: #666;
+  line-height: 1.6;
+}

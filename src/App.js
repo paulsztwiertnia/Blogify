@@ -3,8 +3,12 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import Blog from './Blog';
 import NewPost from './NewPost';
+import './App.css';
 
+// App component to set up the router and navigation links 
 function App() {
+
+
   return (
     <BrowserRouter>
       <div>
